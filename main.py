@@ -58,7 +58,7 @@ def main():
     page.click_element(By.XPATH, "//a[@title='Личный кабинет']")
     page.click_element(By.XPATH, "//ul[@class='dropdown-menu dropdown-menu-right']//a[contains(text(),'Регистрация')]")
 
-    page.input_text(By.XPATH, "//input[@id='register_email']", "kosegarov@yandex.ru")
+    page.input_text(By.XPATH, "//input[@id='register_email']", "chudaikinid21@st.ithub.ru")
     page.input_text(By.XPATH, "//input[@id='register_password']", "123456789")
     page.input_text(By.XPATH, "//input[@id='register_confirm_password']", "123456789")
     page.input_text(By.XPATH, "//input[@id='register_firstname']", "Chudaikin")
@@ -93,7 +93,7 @@ def main():
 
     page.click_element(By.XPATH, "//a[contains(text(),'Отзывов (0)')]")
 
-    page.input_text(By.XPATH, "//input[@id='input-name']", "Vsevolod")
+    page.input_text(By.XPATH, "//input[@id='input-name']", "Yan")
     page.input_text(By.XPATH, "//textarea[@id='input-review']", "Ужасный планшет, 10 из 10")
     page.click_element(By.XPATH, "//input[@value='5']")
     page.click_element(By.XPATH, "//button[@id='button-review']")
